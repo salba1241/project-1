@@ -1,0 +1,191 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgb(190, 190, 188);
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+   
+   
+   
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+     margin: 20px;
+     font-size: 20px;
+     color: black;
+
+}
+
+
+ /* ul li:hover{
+    content: '';
+    background: brown;
+    height: 2px;
+    display: block;
+} */
+.logo{
+    font-size: 14px;
+}
+nav ul li i{
+    color: rgb(238, 107, 32);
+}
+
+.arrival{
+    margin: 20px auto;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.arrival h2{
+    font-size: 30px;
+    margin: 1.2rem;
+}
+
+.arrival p{
+    margin: 1.2rem;
+}
+
+.btn{
+   margin: 1.2rem; 
+   background: red;
+   display: block;
+   padding: 8px 25px;
+   border: none;
+   color: white;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.section{
+    display: flex;
+}
+
+.picture{
+    margin-right: 25rem;
+    margin-top: 4rem;
+}
+
+
+.container h1{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+
+/* -------product----- */
+.col-2{
+    width: 230px;
+   border: 1px solid black;
+   margin-left: 2rem;
+   margin-top: 5rem;
+}
+.col-2 span h3{
+    font-size: 14px;
+    margin: 10px;
+}
+
+.col-2 span p{
+    margin: 5px;
+    font-size: 25px;
+}
+
+.col-2 span .price{
+     margin: 10px;
+     color: brown;
+     font-size: 14px;
+     font-weight: bold;
+}
+
+.btn-hro{
+margin-left: 7rem;
+background: brown;
+display: block;
+padding: 10px 14px;
+border-radius: 10px;
+color: #fff;
+  
+}
+
+
+.col-1{
+    display: flex;
+   
+}
+.menu-icon i{
+    display: none;
+}
+
+
+@media(max-width:600px){
+
+
+    .nav-links ul{
+        position: absolute;
+        background: brown;
+        top: 70px;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: #fff;
+        visibility: hidden;
+    }
+
+    ul li{
+        padding: 15px;
+       
+    }
+
+    .menu-icon i{
+    display: block;
+    color: #fff;
+}
+
+
+
+
+    .arrival h2{
+        font-size: 12px;
+        margin-right: 2rem;
+        width: 100%;
+    }
+    .arrival p{
+         font-size: 12px;
+          width: 100%;
+
+    }
+
+    picture{
+        width: 70px;
+    }
+
+    .btn{
+        
+       display: block;
+       font-size: 10px;
+       width: 90%;
+       
+    }
+
+    .col-1{
+        flex-shrink: 0 ;
+        flex-direction: column;
+        align-items: center;
+    }
+}

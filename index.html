@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DP Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><h1>DP Shops</h1></div>
+            <div class="nav-links" id="MenuList">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">New Arrivals</a></li>
+                    <li><a href="">Fashion</a></li>
+                    <li><a href="">Account</a><i class="fa fa-shopping-cart"></i></li>
+                </ul>
+            </div>
+
+
+             <div class="menu-icon">
+                    <i class="fa fa-bars"onclick="toggleMenu()"></i>
+                </div>
+        </nav>
+
+
+            <script>
+            let MenuList = document.getElementById("MenuList")
+MenuList.style.maxHeight = "0px";
+
+function toggleMenu(){
+    if(MenuList.style.maxHeight == "0px")
+
+
+
+
+        {
+        MenuList.style.maxHeight = "300px";
+
+        }
+        else{
+            MenuList.style.maxHeight = "0px";
+        }
+
+
+        
+    
+}
+    </script>
+
+
+        <main>
+            <div class="section">
+                <div class="arrival">
+                    <h2>New Arrivals For Men & Women</h2>
+                    <p>Get The Best Women Fashion</p>
+                    <button class="btn">Shop Now</button>
+                </div>
+
+                 <div class="picture">
+                        <img src="images/img 15jpg.jpg">
+
+                    </div>
+            </div>
+
+            <!-- -------products--- -->
+             <div class="container">
+                <h1>Our Latest Products</h1>
+
+                <div class="col-1">
+                    <div class="col-2">
+                        <img src="images/img4.jpg" width="200px">
+                        <span>
+                            <h3>Women</h3>
+                            <p>Lady Sandal</p>
+                            <p class="price">$50%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+
+
+                       <div class="col-2">
+                        <img src="images/img 9.jpg" alt="">
+                        <span>
+                            <h3>Men</h3>
+                            <p>Men Watch</p>
+                            <p class="price">$50%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+
+
+                       <div class="col-2">
+                        <img src="images/mg1.png" width="207px">
+                        <span>
+                            <h3>Men</h3>
+                            <p>Men shopes</p>
+                            <p class="price">$200%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+
+
+                       <div class="col-2">
+                        <img src="images/img 12.png" width="200px">
+                        <span>
+                            <h3>Men</h3>
+                            <p>back computer</p>
+                            <p class="price">$300%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+
+                       <div class="col-2">
+                        <img src="images/img22.png" width="200px">
+                        <span>
+                            <h3>Women</h3>
+                            <p>Lady Sandal</p>
+                            <p class="price">$80%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+                </div>
+
+
+
+
+
+                  <div class="col-1">
+                    <div class="col-2">
+                        <img src="images/img4.jpg" alt="">
+                        <span>
+                            <h3>Women</h3>
+                            <p>Lady Sandal</p>
+                            <p class="price">$50%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+
+
+                       <div class="col-2">
+                        <img src="images/img 9.jpg" alt="">
+                        <span>
+                            <h3>Men</h3>
+                            <p>Men Watch</p>
+                            <p class="price">$50%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+
+
+                       <div class="col-2">
+                        <img src="images/mg1.png" width="207px">
+                        <span>
+                            <h3>Men</h3>
+                            <p>Men shopes</p>
+                            <p class="price">$200%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+
+
+                       <div class="col-2">
+                        <img src="images/img 12.png" width="200px">
+                        <span>
+                            <h3>Men</h3>
+                            <p>back computer</p>
+                            <p class="price">$300%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+
+                       <div class="col-2">
+                        <img src="images/img22.png" width="200px">
+                        <span>
+                            <h3>Women</h3>
+                            <p>Lady Sandal</p>
+                            <p class="price">$80%</p>
+                            <button class="btn-hro">Buy Now</button>
+                        </span>
+
+                    </div>
+                </div>
+             </div>
+        </main>
+    </header>
+    
+</body>
+</html>
